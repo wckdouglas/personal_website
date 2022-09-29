@@ -32,7 +32,7 @@ The flask app is hosted by [Heroku](https://heroku.com). The deployment is well 
 Basically, after heroku cli is installed, do:
 
 1. login, so you can access your data via cli
-```
+```bash
 heroku login 
 ```
 
@@ -40,7 +40,7 @@ heroku login
     - All javascripts and css files should go to a folder called [static](https://github.com/wckdouglas/subset_sum/tree/master/src/static),
         - I put the [whole bootstraip library](https://getbootstrap.com/) into this folder
     - All html templates should go to a folder called [templates](https://github.com/wckdouglas/subset_sum/tree/master/src/templates)
-```
+```bash
 mkdir ~/subset_sum
 cd ~/subset_sum
 mkdir src src/templates src/static
@@ -49,36 +49,36 @@ git init
 ```
 
 3. Create a fresh new env, and install required packages
-```
+```bash
 conda create -n subset_sum python=3.6 \
     cython flask    
 ```
 
 4. Create ```requirement.txt``` so heroku knows what to install
-```
+```bash
 pip freeze > requirements.txt
 ```
 
 5. Commit all codes
-```
+```bash
 git add .
 git commit -m 'initialize web app'
 ```
 
 6. Adding heroku git repo as an remote repo
-```
+```bash
 heroku create subset-solver
 ```
 
 7. Push the code to heroku
-```
+```bash
 git push heroku master
 ```
 
 8. And now you can see if the [webapp](http://subset-solver.herokuapp.com/) is live (hint: it's not, because heroku won't know how to do/need to do ```flask run``` to run the webapp)
 
 9. To tell heroku how to start the app
-```
+```bash
 echo 'web: gunicorn app:app' > Procfile
 git add Procfile
 git commit -m "Added Procfile and runtime.txt files"
@@ -86,20 +86,20 @@ git push heroku master
 ```
 
 10. Open the webapp and see if it is what it should look like
-```
+```bash
 heroku open
 ```
 
 11. This should work if cython is not being used, because heroku doesn't compile cython code by default.. The installation of gcc was done following [a post on stackoverflow](https://stackoverflow.com/questions/51655018/how-to-host-cython-web-app-on-heroku).
     - Now, we need to do:
-    ```
+    ```bash
     heroku update beta
     heroku plugins:install @heroku-cli/plugin-manifest
     heroku manifest:create
     ```
       - This will create a ```heroku.yml``` file, so now you can delete the ```Procfile```
       - Modify the ```heroku.yaml``` into:
-    ```
+    ```bash
     setup:
     config: {}
     build:
@@ -111,7 +111,7 @@ heroku open
     web: 'gunicorn app.app:app'
     ```
     - And finally:
-    ```
+    ```bash
     heroku stack:set container
     git add heroku.yaml
     git commit -am 'added heroky.yml'

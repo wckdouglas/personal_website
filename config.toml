@@ -1,6 +1,6 @@
 # The URL the site will be built for
 base_url = "https://example.com"
-title = "Douglas's personal website"
+title = "DCW"
 theme = "apollo"
 
 # Whether to automatically compile all Sass files in the sass directory
@@ -16,6 +16,7 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
+theme = "toggle"      
 socials = [
     { name = "twitter", url = "https://twitter.com/wckdouglas", icon = "twitter" },
     { name = "github", url = "https://github.com/wckdouglas", icon = "github" },
@@ -26,7 +27,9 @@ socials = [
 ]
 
 menu = [
-    { name = "/posts", url = "/posts", weight = 1 },
-    { name = "/projects", url = "/projects", weight = 2 },
-    { name = "/about", url = "/about", weight = 3 },
+    { name = "/about", url = "/about", weight = 1 },
+    { name = "/research", url = "/research", weight = 2 },
+    { name = "/posts", url = "/posts", weight = 3 },
+    { name = "/software", url = "/software", weight = 4 },
+    { name = "/build", url = "/build", weight = 5 }
 ]
