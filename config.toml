@@ -31,5 +31,6 @@ menu = [
     { name = "/research", url = "/research", weight = 2 },
     { name = "/posts", url = "/posts", weight = 3 },
     { name = "/software", url = "/software", weight = 4 },
-    { name = "/build", url = "/build", weight = 5 }
+    { name = "/build", url = "/build", weight = 5 },
+    { name = "/resume", url = "/build", weight = 6 },
 ]
