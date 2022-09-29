@@ -1,4 +1,4 @@
-- authors: Lamers MM, Breugem TI, Mykytyn AZ, Wang Y, Groen N,  Knoops K, Schipper D, van der Vaart J, Koopman CD, Zhang J, <b>Wu DC</b>, van den Doel PB, Bestebroer T, GeurtsvanKessel CH, Peters PJ,  Muraro MJ, Clevers H, Wu NC, Haagmans BL
+- authors: Lamers MM, Breugem TI, Mykytyn AZ, Wang Y, Groen N,  Knoops K, Schipper D, van der Vaart J, Koopman CD, Zhang J, <Wu DC>, van den Doel PB, Bestebroer T, GeurtsvanKessel CH, Peters PJ,  Muraro MJ, Clevers H, Wu NC, Haagmans BL
   year: "preprint"
   title: "Human organoid systems reveal in vitro correlates of fitness for SARS-CoV-2 B.1.1.7"
   vol: ""
@@ -8,7 +8,7 @@
   sra: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA722947
   scripts: https://github.com/nicwulab/UK_strain_in_vitro_fitness
 
-- authors: Yao J, Xu H, <b>Wu DC</b>, Ares M, Lambowitz AM
+- authors: Yao J, Xu H, <Wu DC>, Ares M, Lambowitz AM
   year: "preprint"
   title: "Human cells contain myriad excised linear intron RNAs with potential functions in gene regulation and utility as disease biomarkers"
   vol: ""
@@ -17,7 +17,7 @@
   doi: 10.1101/2020.09.07.285114
   sra: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA640428/
 
-- authors: Lamers MM, Mykytyn AZ, Breugem TI, Wang Y, <b>Wu DC</b>, Riesebosch S, van den Doel PB, Schipper D, Bestebroer T, Wu NC, Haagmans BL
+- authors: Lamers MM, Mykytyn AZ, Breugem TI, Wang Y, <Wu DC>, Riesebosch S, van den Doel PB, Schipper D, Bestebroer T, Wu NC, Haagmans BL
   year: "2021"
   title: "Human airway cells prevent SARS-CoV-2 multibasic cleavage site cell culture adaptation"
   vol: ""
@@ -27,7 +27,7 @@
   doi: 10.7554/eLife.66815
   sra: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA694097
 
-- authors: Yao J*, <b>Wu DC*</b>, Nottingham RM, and Lambowitz AM
+- authors: Yao J*, <Wu DC>*, Nottingham RM, and Lambowitz AM
   year: "2020"
   title: "Identification of protein-protected mRNA fragments and structured excised intron RNAs in human plasma by TGIRT-seq peak calling"
   vol: "2020(9):e60743 (*contributed equally)"
@@ -38,7 +38,7 @@
   sra: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA640428/
 
 
-- authors: Wu NC, Lv H, Thompson AJ, <b>Wu DC</b>, Ng WWS, Kadam RU, Lin CW, Nycholat CM, McBride R, Liang W, Paulson JC, Mok CKP, and Wilson IA
+- authors: Wu NC, Lv H, Thompson AJ, <Wu DC>, Ng WWS, Kadam RU, Lin CW, Nycholat CM, McBride R, Liang W, Paulson JC, Mok CKP, and Wilson IA
   year: "2019"
   title: "Preventing an antigenically disruptive mutation in egg-based H3N2 seasonal Influenza Vaccines by Mutational Incompatibility"
   ref:  Cell Host & Microbe
@@ -48,7 +48,7 @@
   doi: 10.1016/j.chom.2019.04.013
 
 
-- authors: Xu H*, Yao J*, <b>Wu DC*</b>, and Lambowitz AM
+- authors: Xu H*, Yao J*, <Wu DC>*, and Lambowitz AM
   year: "2019"
   title: "Improved TGIRT-seq methods for comprehensive transcriptome profiling with decreased adapter dimer formation and bias correction"
   ref:  Scientific Reports 
@@ -59,7 +59,7 @@
   sra: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA505326
 
 
-- authors: <b>Wu DC</b>, Yao J, Ho KS, Lambowitz AM, and Wilke CO
+- authors: <Wu DC>, Yao J, Ho KS, Lambowitz AM, and Wilke CO
   year: "2018"
   title: Limitations of alignment-free tools in total RNA-seq quantification
   ref: BMC Genomics 
@@ -68,7 +68,7 @@
   link: https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-4869-5
   doi: 10.1186/s12864-018-4869-5
 
-- authors: Guan W*, Wu NC*, Lee HHY, Li Y, Jiang W, Shen L, <b>Wu DC</b>, Chen R, Zhong N, Wilson IA, Peiris M, Yang Z, and Mok CKP 
+- authors: Guan W*, Wu NC*, Lee HHY, Li Y, Jiang W, Shen L, <Wu DC>, Chen R, Zhong N, Wilson IA, Peiris M, Yang Z, and Mok CKP 
   year: "2018"
   title: Clinical correlations of transcriptional profile in patients Infected with avian influenza H7N9 virus
   ref: The Journal of Infectious Diseases
@@ -78,7 +78,7 @@
   doi: 10.1093/infdis/jiy317
 
 
-- authors: <b>Wu DC</b> and Lambowitz AM
+- authors: <Wu DC> and Lambowitz AM
   year: "2017"
   title: Facile single-stranded DNA sequencing of human plasma DNA via thermostable group II intron reverse transcriptase template switching
   ref: Scientific Reports
@@ -89,7 +89,7 @@
   sra: https://www.ncbi.nlm.nih.gov/bioproject?LinkName=sra_bioproject&from_uid=4265625
 
 
-- authors: Nottingham RM*, <b>Wu DC*</b>, Qin Y, Yao J, Hunicke-Smith S, and Lambowitz AM
+- authors: Nottingham RM*, <Wu DC>*, Qin Y, Yao J, Hunicke-Smith S, and Lambowitz AM
   year: "2016"
   title: RNA-seq of human reference RNA samples using a thermostable group II intron reverse transcriptase
   ref: RNA 
@@ -99,7 +99,7 @@
   doi: 10.1261/rna.055558.115
   sra: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA301711
 
-- authors: Qin Y*, Yao J*, <b>Wu DC</b>, Nottingham RM, Mohr S, Hunicke-Smith S, and Lambowitz AM
+- authors: Qin Y*, Yao J*, <Wu DC>, Nottingham RM, Mohr S, Hunicke-Smith S, and Lambowitz AM
   year: "2016"
   title: High-throughput sequencing of human plasma RNA by using thermostable group II intron reverse transcriptases
   ref: RNA
@@ -110,7 +110,7 @@
   sra: https://www.ncbi.nlm.nih.gov/bioproject?LinkName=sra_bioproject&from_uid=1855706
 
 
-- authors: Geuss LR, <b>Wu DC</b>, Ramamoorthy D, Alford CD, and Suggs LJ
+- authors: Geuss LR, <Wu DC>, Ramamoorthy D, Alford CD, and Suggs LJ
   year: "2014"
   title: Paramagnetic beads and magnetically mediated strain enhance cardiomyogenesis in mouse embryoid bodies
   ref: PLoS ONE
@@ -119,7 +119,7 @@
   link: http://www.plosone.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pone.0113982&representation=PDF
   doi: 10.1371/journal.pone.0113982
 
-- authors: Tan Y, Tajik A, Chen J, Jia Q, Chowdhury F, Wang L, Chen J, Zhang S, Hong Y, Yi H, <b>Wu DC</b>, Zhang Y, Wei F, Poh YC, Seong J, Singh R, Lin L, Doganay S, Li Y, Jia H, Ha TJ, Wang Y, Huang B, and Wang N
+- authors: Tan Y, Tajik A, Chen J, Jia Q, Chowdhury F, Wang L, Chen J, Zhang S, Hong Y, Yi H, <Wu DC>, Zhang Y, Wei F, Poh YC, Seong J, Singh R, Lin L, Doganay S, Li Y, Jia H, Ha TJ, Wang Y, Huang B, and Wang N
   year: "2014"
   title: Matrix softness regulates plasticity of tumour-repopulating cells via H3K9 demethylation and Sox2 expression
   ref: Nature Communication 
@@ -128,7 +128,7 @@
   link: http://www.nature.com/ncomms/2014/140806/ncomms5619/pdf/ncomms5619.pd
   doi: 10.1038/ncomms5619
 
-- authors: Poh YC, Chen J, Hong Y, Yi H, Zhang S, Chen J, <b>Wu DC</b>, Wang L, Jia Q, Singh R, Yao W, Tan Y, Tajik A, Tanaka TS, and Wang N
+- authors: Poh YC, Chen J, Hong Y, Yi H, Zhang S, Chen J, <Wu DC>, Wang L, Jia Q, Singh R, Yao W, Tan Y, Tajik A, Tanaka TS, and Wang N
   year: "2014"
   title: Generation of organized mouse germ layers from single embryonic stem cell
   ref: Nature Communication
@@ -137,7 +137,7 @@
   link: http://www.nature.com/ncomms/2014/140530/ncomms5000/pdf/ncomms5000.pd
   doi: 10.1038/ncomms5000
 
-- authors: Poh YC, Shevtsov SP, Chowdhury F, <b>Wu DC</b>, Na S, Dundr M, and Wang N
+- authors: Poh YC, Shevtsov SP, Chowdhury F, <Wu DC>, Na S, Dundr M, and Wang N
   year: "2012"
   title: Dynamic force-induced direct dissociation of protein complexes in a nuclear body in living cells
   ref: Nature Communication
@@ -147,7 +147,7 @@
   doi:  10.1038/ncomms1873
 
 
-- authors: Uda Y, Poh YC, Chowdhury F, <b>Wu DC</b>, Tanaka TS, Sato M, and Wang N
+- authors: Uda Y, Poh YC, Chowdhury F, <Wu DC>, Tanaka TS, Sato M, and Wang N
   year: "2011"
   title: Force via integrins but not E-cadherin decreases Oct3/4 expression in embryonic stem cells
   ref: Biochemical and Biophysical Research Communications
@@ -157,7 +157,7 @@
   doi: 10.1016/j.bbrc.2011.10.080
 
 
-- authors: <b>Wu DC</b> and Waye M.
+- authors: <Wu DC> and Waye M.
   year: "2011"
   title: The relationship between MicroRNA and tumor suppressors
   ref: Tumor Suppressors Nova Science
