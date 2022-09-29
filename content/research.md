@@ -26,7 +26,7 @@ For my first rotation in UT-Austin, I joined the lab of [Professor Laura Suggs](
 
 <div markdown='1'>
 <a href="http://www.ncbi.nlm.nih.gov/pubmed/25501004" >
-<img src="/research_images/guess_setup.png"  />
+<img src="/research_images/guess_setup.png" width="100%"/>
 </a>
 
 References: [Geuss, et al. 2014](https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0113982&type=printable), [Tan, et al. 2014](https://www.nature.com/articles/ncomms5619), [Poh, et al. 2014](http://www.nature.com/ncomms/2014/140530/ncomms5000/pdf/ncomms5000.pdf), [Poh, et al. 2012](http://www.nature.com/ncomms/journal/v3/n5/pdf/ncomms1873.pdf), [Uda, et al. 2011](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3221912/pdf/nihms333966.pdf)

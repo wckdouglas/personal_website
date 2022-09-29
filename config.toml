@@ -30,12 +30,10 @@ menu = [
     { name = "/about", url = "/about", weight = 1 },
     { name = "/research", url = "/research", weight = 2 },
     { name = "/publications", url = "/publications", weight = 3 },
-    { name = "/posts", url = "/posts", weight = 4 },
+    { name = "/blog", url = "/blog", weight = 4 },
     { name = "/software", url = "/software", weight = 5 },
     { name = "/build", url = "/build", weight = 6 },
-    { name = "/resume", url = "/build", weight = 7 },
+    { name = "/resume", url = "/resume", weight = 7 },
 ]
 
-publications = [
-    { title = "The relationship between MicroRNA and tumor suppressors", year = "2011", author = "**Wu DC** and Waye M.", ref = "Tumor Suppressors Nova Science", vol = "175-188", scripts = "", link = "https://www.novapublishers.com/catalog/product_info.php?products_id=24192", doi="" },
-]
+welcome_image = "/research_images/genomics.png"

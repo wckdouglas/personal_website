@@ -1,9 +1,6 @@
 +++
-paginate_by = 7
-[extra]
-section_path = "posts/_index.md"
+title = "Welcome"
+path = "index"
+template = "base.html"
 +++
 
-<p align="center">
-<img src=/research_images/genomics.png width="100%" height="50%" /> 
-</p>
