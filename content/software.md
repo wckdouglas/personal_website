@@ -9,17 +9,17 @@ As I do programming exclusively on RNA/DNA-seq experiments bioinformatics analys
 
 This is a python package that contains many of my day-to-day scripts and function for manuipulating SAM/BAM, Fastq, BED files from high-throughput genomic data. [[repo]](https://github.com/wckdouglas/sequencing_tools)
 
-# [Stock profiler](https://wu-stock.herokuapp.com/) #
+# [Stock profiler](https://stock-baseline.onrender.com/) #
 
-<iframe src="https://wu-stock.herokuapp.com/" style="border:none ; width: 1000px; height: 500px"></iframe>
+<iframe src="https://stock-baseline.onrender.com/" style="border:none ; width: 100%; height: 400px"></iframe>
 
-[[repo]](https://wu-stock.herokuapp.com/)
+[[repo]](https://github.com/wckdouglas/wu-stock)
 
 # UMI Design #
 
 This is an [shiny app](https://wckdouglas.shinyapps.io/UMI_design/) to help designing unique molecular identifiers (UMI) primers. Backend of the app used poisson distribution to estimate how many times the barcode collision would occur. Idea from [Nicholas C. Wu](https://wchnicholas.github.io/)
 
-<iframe src="https://wckdouglas.shinyapps.io/UMI_design/" style="border: none; width: 600px; height: 800px"></iframe>
+<iframe src="https://wckdouglas.shinyapps.io/UMI_design/" style="border: none; width: 100%; height: 600px"></iframe>
 
 [[repo]](https://github.com/wckdouglas/umi_design)
 
