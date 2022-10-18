@@ -113,6 +113,13 @@ conda create -n prob \
     statsmodels ipykernel
 ```
 
+```bash
+conda create -n jax \
+    jax flax optax matplotlib \
+    scikit-learn pandas seaborn \
+    funsor numpyro arviz
+```
+
 ### To use conda R in Rstudio ###
 
 On mac OSX, *Rstudio* will not recognize *R* from conda installation, since it only search $PATH from: **/usr/bin/R, /usr/local/bin/R** and **/opt/local/bin/R**.
