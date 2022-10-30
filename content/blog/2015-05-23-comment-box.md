@@ -9,7 +9,7 @@ So I come up with **[Disqus](https://disqus.com)**.
 
 +++
 ### Step 1
-![step1]({{ site.url }}/assets/article_images/staticCommentBox/step1.png)
+![step1](/article_images/staticCommentBox/step1.png)
 
 1. Create a **Disqus** account.
 2. On the top right corner, press the preference button
@@ -17,20 +17,20 @@ So I come up with **[Disqus](https://disqus.com)**.
 
 +++
 ### Step 2
-![step2]({{ site.url }}/assets/article_images/staticCommentBox/step2.png)
+![step2](/article_images/staticCommentBox/step2.png)
 
 1. Fill up this form with something.
 2. Press *Finish registration*.
 
 +++
 ### Step 3
-![step3]({{ site.url }}/assets/article_images/staticCommentBox/step3.png)
+![step3](/article_images/staticCommentBox/step3.png)
 
 * Press *Universal Code*.
 
 +++
 ### Step 4
-![step4]({{ site.url }}/assets/article_images/staticCommentBox/step4.png)
+![step4](/article_images/staticCommentBox/step4.png)
 
 * Follow the instructions and add the code into whereever it suppose to be at.
 

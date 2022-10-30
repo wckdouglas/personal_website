@@ -10,7 +10,7 @@ In **Mark 13**, Jesus told 10 prophecies. I am going to use bayesian inference t
 
 It is said that ~2500 prophecies were made in the bible and 2000 of them have been fulfilled ([ref](http://www.reasons.org/articles/articles/fulfilled-prophecy-evidence-for-the-reliability-of-the-bible)). Assuming prophecies are binomial trials (true or false only), in a bayesian approach, the equation for posterior distribution is:
 
-![]({{ site.url }}/assets/article_images/prophecies/formula1.png)
+![](/article_images/prophecies/formula1.png)
 
 Assume those prophecies that are not fulfilled at this point as failure. So we have:
 
@@ -20,7 +20,7 @@ Assume those prophecies that are not fulfilled at this point as failure. So we h
 
 As this denominator are not easily integrated in *R*, I was suggested to use the following algorithm using *pdf of a beta distribution* to get the probability of prophecies-fulfilled-probability ([ref](http://www.sta.cuhk.edu.hk/KHWu/default.aspx)).
 
-![]({{ site.url }}/assets/article_images/prophecies/formula.png)
+![](/article_images/prophecies/formula.png)
 
 <script src="https://gist.github.com/wckdouglas/de53b659c08e0a25b592.js"></script>
 
@@ -49,7 +49,7 @@ ggplot(data= result,
     geom_point()
 ```
 
-![]({{ site.url }}/assets/article_images/prophecies/unnamed-chunk-1-1.png) 
+![](/article_images/prophecies/unnamed-chunk-1-1.png) 
 
 From the red curve (N<sub>success</sub>=2000), getting the likelihood ratio between 0.8 and 0.5 (random).
 
