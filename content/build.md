@@ -21,6 +21,7 @@ Table of content:
 - [tinytex](#tex)
 - [windows](#win)
 - [apple silicon](#Apple)
+- [docker](#docker)
 - [poetry](#poetry)
 
 <h1 id='conda'> Conda  </h1>
