@@ -383,7 +383,7 @@ conda activate ${ENV}
 python -m ipykernel install --user --name $KERNEL_NAME --display-name $KERNEL_NAME
 ```
 
-## docker
+<h2 id='docker'> Docker </h2>
 
 ```bash
 # on apple silicon macs
@@ -395,7 +395,7 @@ export DOCKER_DEFAULT_PLATFORM=linux/amd64
 shell into images:
 
 ```bash
-docker run -i -t  ${image} bash
+docker run --entrypoint /bin/bash -i -t  ${image}
 ```
 
 <h1 id='poetry'> Poetry </h1>
