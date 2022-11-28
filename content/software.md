@@ -5,6 +5,10 @@ path = "software"
 
 As I do programming exclusively on RNA/DNA-seq experiments bioinformatics analysis, all of the softwares I wrote are mainly focus on this aspect.
 
+# [diffexpr](https://github.com/wckdouglas/diffexpr) #
+
+A side project from grad school to run [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html) in a python/pandas environment, which turned out to be useful for many others. [[repo]](https://github.com/wckdouglas/diffexpr)
+
 # [Sequencing tools](https://github.com/wckdouglas/sequencing_tools) #
 
 This is a python package that contains many of my day-to-day scripts and function for manuipulating SAM/BAM, Fastq, BED files from high-throughput genomic data. [[repo]](https://github.com/wckdouglas/sequencing_tools)
