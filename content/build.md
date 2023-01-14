@@ -388,6 +388,7 @@ python -m ipykernel install --user --name $KERNEL_NAME --display-name $KERNEL_NA
 
 ```bash
 # on apple silicon macs
+brew install docker colima
 export DOCKER_BUILDKIT=0
 export COMPOSE_DOCKER_CLI_BUILD=0
 export DOCKER_DEFAULT_PLATFORM=linux/amd64
