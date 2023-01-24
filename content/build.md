@@ -394,10 +394,16 @@ export COMPOSE_DOCKER_CLI_BUILD=0
 export DOCKER_DEFAULT_PLATFORM=linux/amd64
 ```
 
-shell into images:
+starting a container and shell into it:
 
 ```bash
 docker run --entrypoint /bin/bash -i -t  ${image}
+```
+
+shell into a running container:
+
+```bash
+docker exec -it ${container} /bin/bash
 ```
 
 <h1 id='poetry'> Poetry </h1>
