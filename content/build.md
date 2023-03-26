@@ -406,6 +406,19 @@ shell into a running container:
 docker exec -it ${container} /bin/bash
 ```
 
+### colima
+
+```
+brew install colima
+```
+
+if it complains about no docker daemon:
+
+```
+docker context use colima # or
+docker context list
+```
+
 <h1 id='poetry'> Poetry </h1>
 
 commands extracted from [[here]](https://python-poetry.org/docs)
