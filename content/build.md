@@ -406,6 +406,12 @@ shell into a running container:
 docker exec -it ${container} /bin/bash
 ```
 
+kill all containers:
+
+```bash
+docker kill $(docker ps -q)
+```
+
 ### colima
 
 ```
