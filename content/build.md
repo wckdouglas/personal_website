@@ -416,6 +416,7 @@ docker kill $(docker ps -q)
 
 ```
 brew install colima
+colima start --cpu 4 --network-address --disk 100 --memory 16
 ```
 
 if it complains about no docker daemon:
