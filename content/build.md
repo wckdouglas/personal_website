@@ -394,10 +394,36 @@ export COMPOSE_DOCKER_CLI_BUILD=0
 export DOCKER_DEFAULT_PLATFORM=linux/amd64
 ```
 
-shell into images:
+starting a container and shell into it:
 
 ```bash
 docker run --entrypoint /bin/bash -i -t  ${image}
+```
+
+shell into a running container:
+
+```bash
+docker exec -it ${container} /bin/bash
+```
+
+kill all containers:
+
+```bash
+docker kill $(docker ps -q)
+```
+
+### colima
+
+```
+brew install colima
+colima start --cpu 4 --network-address --disk 100 --memory 16
+```
+
+if it complains about no docker daemon:
+
+```
+docker context use colima # or
+docker context list
 ```
 
 <h1 id='poetry'> Poetry </h1>
