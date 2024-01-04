@@ -36,7 +36,7 @@ sns.despine()
 ```
 
 
-![png]({{ site.baseurl}}/assets/article_images/matplotlib_legend/output_3_0.png)
+![png](/article_images/matplotlib_legend/output_3_0.png)
 
 
 On the above plot, legend could not be added using ```ax.legend()```, since they were not labeled. In this case, I have to use ``patches`` from ``matplotlib`` to make the legend handles, and add to the figure by ```ax.legend()``` 
@@ -54,7 +54,7 @@ ax.legend(handles=pat, bbox_to_anchor = (1,0.5))
 
 
 
-![png]({{ site.baseurl}}/assets/article_images/matplotlib_legend/output_5_1.png)
+![png](/article_images/matplotlib_legend/output_5_1.png)
 
 
 Another frequently-encountered problem is the duplicate legend labels.
@@ -215,7 +215,7 @@ pat = [mpatches.Patch(color=col, label=lab) for lab, col in ce.encoder.items()] 
 ax.legend(handles=pat, bbox_to_anchor = (1,0.5))
 ```
 
-![png]({{ site.baseurl}}/assets/article_images/matplotlib_legend/color_encoder.png)
+![png](/article_images/matplotlib_legend/color_encoder.png)
 
 ``` python
 ce.encoder   #   {'no': '#E69F00', 'yes': '#56B4E9'}
