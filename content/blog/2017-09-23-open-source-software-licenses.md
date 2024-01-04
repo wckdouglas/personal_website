@@ -5,7 +5,7 @@ date = "2017-09-23"
 
 As I am in the process of packaging a [python package](https://wckdouglas.github.io/sequencing_tools/) to facilitate my research, I was hoping to incorporate a [module](https://github.com/wckdouglas/sequencing_tools/blob/master/sequencing_tools/cutadapt_align.pyx) from the famous [cutadapt](http://cutadapt.readthedocs.io/en/stable/) adapter trimming tool. This leads me to consider some licensing issues towards whether it is okay to do this. Cutadapt used a [MIT license](https://github.com/marcelm/cutadapt/blob/master/LICENSE), below is a screenshot from the Github project of cutadapt:
 
-![png]({{ site.baseurl}}/assets/article_images/oss_license/mit.png)
+![png](/article_images/oss_license/mit.png)
 
 So MIT license basically provide all freedom to reuse/copy of the codes for whatever use I want. This is great! But what if the codes were licensed with something other than MIT?
 
@@ -21,10 +21,10 @@ It is as easy as:
 
 1\. Create a file in the repository named as **LICENSE**,
 
-![png]({{ site.baseurl}}/assets/article_images/oss_license/create_license.png)
+![png](/article_images/oss_license/create_license.png)
 
 2\. Click **choose a license template**,
 
-![png]({{ site.baseurl}}/assets/article_images/oss_license/choosing_license.png)
+![png](/article_images/oss_license/choosing_license.png)
 
 And it is done!
