@@ -9,6 +9,7 @@ I searched pubmed with the key words: 'plasma sequencing', and built a network b
 
 
 The network is plotted here:
+
 ![](/article_images/plasmaSeq/titleWordingNetwork.png)
 
 

@@ -173,7 +173,7 @@ p.map(plt.scatter, 'Effective pixels','Dimensions')
 
 
 
-![png]({{ site.baseurl}}/assets/article_images/seaborn_files/seaborn_5_1.png)
+![png](/article_images/seaborn_files/seaborn_5_1.png)
 
 
 The default ***seaborn FacetGrid*** generate an uglya and messy title template. I personally like the facetgrid style in ***ggplot2*** better. There's option in [seaborn](http://seaborn.pydata.org/)
@@ -199,7 +199,7 @@ p.set_titles(row_template = '{row_name}', col_template = '{col_name}')
 
 
 
-![png]({{ site.baseurl}}/assets/article_images/seaborn_files/seaborn_7_1.png)
+![png](/article_images/seaborn_files/seaborn_7_1.png)
 
 
 There will be some overlapping on the row titles for some reason.
@@ -229,4 +229,4 @@ p.set_titles(row_template = '{row_name}', col_template = '{col_name}')
 
 
 
-![png]({{ site.baseurl}}/assets/article_images/seaborn_files/seaborn_9_1.png)
+![png](/article_images/seaborn_files/seaborn_9_1.png)
