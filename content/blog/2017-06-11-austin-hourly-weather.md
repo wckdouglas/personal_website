@@ -105,7 +105,7 @@ ax.set_xlabel('Temperature', fontsize=20)
 ax.set_ylabel('Density', fontsize=20)
 ```
 
-![png]({{ site.baseurl}}/assets/article_images/austin_weather/temp_density.png)
+![png](/article_images/austin_weather/temp_density.png)
 
 Mostly around 22 $$^o$$C, actually it's not as bad as I thought! Although the data is measured 24 hours a day and it is mostly hotter when it is in the day, that can explain why we think it is always so hot (>27$$^o$$C) here.
 
@@ -133,7 +133,7 @@ for ax in p.axes.flat:
 ```
 
 
-![png]({{ site.baseurl}}/assets/article_images/austin_weather/hourly_temp.png)
+![png](/article_images/austin_weather/hourly_temp.png)
 
 
 So it seems like 3pm is the hottest hour in Austin, but not noon (red vertical line). An explanation can be found [here](http://www.almanac.com/fact/what-is-the-hottest-time-of-dayr).
