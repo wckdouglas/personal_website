@@ -267,10 +267,10 @@ unbind-key n
 setw synchronize-panes off
 
 # pane movements
-bind-key s splitw -h -p 50  -c "#{pane_current_path}"
-bind-key i splitw -v -p 50  -c "#{pane_current_path}"
+bind-key s splitw -h -l 50%  -c "#{pane_current_path}"
+bind-key i splitw -v -l 50%  -c "#{pane_current_path}"
 bind-key f break-pane
-bind-key j join-pane -h -p 50 -s !
+bind-key j join-pane -h -l 50% -s !
 bind-key w killp
 bind-key t new-window  -c "#{pane_current_path}"
 bind-key n new-window  -c "#{pane_current_path}"
